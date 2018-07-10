@@ -9,10 +9,10 @@ metadata:
     alauda.io/description.en: update service
     alauda.io/readme.zh-CN: 使用api授权方式更新目标区域服务
     alauda.io/readme.en: update service
-    alauda.io/version: v0.1
+    alauda.io/version: v0.2
     alauda.io/style.icon: updateService
   labels:
-    catgory: CICD
+    catgory: CICD123
     target: UpdateService
     phase: incubator
 spec:
