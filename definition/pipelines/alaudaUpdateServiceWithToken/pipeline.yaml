@@ -3,7 +3,7 @@ kind: PipelineTemplate
 metadata:
   name: alaudaUpdateServiceAcrossRegion
   annotations:
-    alauda.io/displayName.zh-CN: 跨集群更新服务
+    alauda.io/displayName.zh-CN: 于志鹏跨集群更新服务
     alauda.io/displayName.en: Update service across region
     alauda.io/description.zh-CN: 使用api授权方式更新目标区域服务
     alauda.io/description.en: update service
