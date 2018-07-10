@@ -4,11 +4,11 @@ kind: PipelineTaskTemplate
 metadata:
   name: alaudaUpdateService
   annotations:
-    alauda.io/displayName.zh-CN: 更新服务
+    alauda.io/displayName.zh-CN: 于志鹏更新服务
     alauda.io/displayName.en: UpdateService
-    alauda.io/description.zh-CN: 更新服务
+    alauda.io/description.zh-CN: 于志鹏1更新服务
     alauda.io/description.en: UpdateService
-    alauda.io/readme.zh-CN: 更新服务
+    alauda.io/readme.zh-CN: 于志鹏2更新服务
     alauda.io/readme.en: UpdateService
     alauda.io/version: v0.1
     alauda.io/style.icon: 
