@@ -9,7 +9,7 @@ metadata:
     alauda.io/description.en: update service
     alauda.io/readme.zh-CN: 使用api授权方式更新目标区域服务
     alauda.io/readme.en: update service
-    alauda.io/version: v0.2
+    alauda.io/version: v0.3
     alauda.io/style.icon: updateService
   labels:
     catgory: CICD123
@@ -38,7 +38,7 @@ spec:
             name:
               zh-CN: "API地址"
               en: "API Endpoint"
-          required: true
+          required: false
         - name: "NAMESPACE"
           schema:
             type: string
@@ -47,9 +47,9 @@ spec:
           display:
             type: string
             name:
-              zh-CN: "命名空间"
+              zh-CN: "命名zpyu空间"
               en: "NAMESPACE"
-          required: true
+          required: false
         - name: "TOKEN"
           schema:
             type: string
@@ -58,9 +58,9 @@ spec:
           display:
             type: string
             name:
-              zh-CN: "账户Token"
+              zh-CN: "账户zpyu Token"
               en: "Account Token"
-          required: true
+          required: false
         - name: "SPACE_NAME"
           schema:
             type: string
@@ -69,9 +69,9 @@ spec:
           display:
             type: string
             name:
-              zh-CN: "资源空间"
+              zh-CN: "zpyu 资源空间"
               en: "Space Name"
-          required: true
+          required: false
         - name: "REGION"
           schema:
             type: string
@@ -80,9 +80,9 @@ spec:
           display:
             type: string
             name:
-              zh-CN: "集群名"
+              zh-CN: "zpyu集群名"
               en: "Region Name"
-          required: true
+          required: false
         - name: "SERVICE_NAME"
           schema:
             type: string

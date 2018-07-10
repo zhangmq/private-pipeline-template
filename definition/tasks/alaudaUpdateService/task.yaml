@@ -1,4 +1,3 @@
-
 apiVersion: devops.alauda.io/v1alpha1
 kind: PipelineTaskTemplate
 metadata:
