@@ -1,0 +1,15 @@
+pipeline{
+	agent any
+  stages{
+    stage('pull image'){
+      steps{
+        echo 'Zpyu you are good'
+      }
+    stage('TEST'){
+      steps{
+        echo 'zpyu  TEST'
+      }
+    }
+    }
+  }
+}

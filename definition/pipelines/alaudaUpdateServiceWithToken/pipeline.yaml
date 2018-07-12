@@ -3,16 +3,16 @@ kind: PipelineTemplate
 metadata:
   name: alaudaUpdateServiceAcrossRegion
   annotations:
-    alauda.io/displayName.zh-CN: 于志鹏跨集群更新服务
+    alauda.io/displayName.zh-CN: 跨集群更新服务
     alauda.io/displayName.en: Update service across region
     alauda.io/description.zh-CN: 使用api授权方式更新目标区域服务
     alauda.io/description.en: update service
     alauda.io/readme.zh-CN: 使用api授权方式更新目标区域服务
     alauda.io/readme.en: update service
-    alauda.io/version: v0.3
+    alauda.io/version: v0.1
     alauda.io/style.icon: updateService
   labels:
-    catgory: CICD123
+    catgory: CICD
     target: UpdateService
     phase: incubator
 spec:
@@ -47,7 +47,7 @@ spec:
           display:
             type: string
             name:
-              zh-CN: "命名zpyu空间"
+              zh-CN: "命名空间"
               en: "NAMESPACE"
           required: false
         - name: "TOKEN"
@@ -58,7 +58,7 @@ spec:
           display:
             type: string
             name:
-              zh-CN: "账户zpyu Token"
+              zh-CN: "账户Token"
               en: "Account Token"
           required: false
         - name: "SPACE_NAME"
@@ -69,7 +69,7 @@ spec:
           display:
             type: string
             name:
-              zh-CN: "zpyu 资源空间"
+              zh-CN: "资源空间"
               en: "Space Name"
           required: false
         - name: "REGION"
@@ -80,7 +80,7 @@ spec:
           display:
             type: string
             name:
-              zh-CN: "zpyu集群名"
+              zh-CN: "集群名"
               en: "Region Name"
           required: false
         - name: "SERVICE_NAME"
