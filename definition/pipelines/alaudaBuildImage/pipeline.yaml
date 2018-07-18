@@ -34,7 +34,7 @@ spec:
             timeout: 3600
   arguments:
     - displayName:
-        zh-CN: "基本信息"
+        zh-CN: "基本信息变了"
         en: "Basic Info"
       items:
         - name: "contextDir"
