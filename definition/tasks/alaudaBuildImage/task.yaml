@@ -54,7 +54,7 @@ spec:
       display:
         type: string
         name:
-          zh-CN: "构建目录"
+          zh-CN: "构建目录（改）"
           en: "path of build"
       required: true
       default: ./
