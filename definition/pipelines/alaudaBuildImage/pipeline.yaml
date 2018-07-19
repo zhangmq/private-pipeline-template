@@ -320,24 +320,4 @@ spec:
               when:
                 name: buildImageEnabled
                 value: true
-        - name: "useImageCache"
-          schema:
-            type: boolean
-          binding:
-            - BuildImage.args.useImageCache
-          display:
-            type: boolean
-            name:
-              zh-CN: "开启镜像缓存"
-              en: "Use image cache"
-            description:
-              zh-CN: "开启镜像缓存"
-              en: "Use image cache"
-          default: true
-          required: true
-          relation:
-            - action: show
-              when:
-                name: buildImageEnabled
-                value: true
-
+        
